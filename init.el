@@ -41,4 +41,7 @@
  '(menu-bar-mode nil)
  '(pdf-latex-command "xelatex")
  '(tool-bar-mode nil))
-   (global-set-key (kbd "M-o") 'ace-window)
+  (global-set-key (kbd "M-o") 'ace-window)
+  ;; Using mouse to cycle through previous and next buffers
+  (global-set-key [mouse-8] 'previous-buffer)
+  (global-set-key [mouse-9] 'next-buffer )
